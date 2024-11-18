@@ -55,8 +55,6 @@ Antes de começar, você precisará ter instalado:
 
 <img src="./assets/demo.gif">
 
-##🧑‍💻 Contribuindo
-
 Contribuições são bem-vindas! 
 
 
