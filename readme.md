@@ -33,7 +33,6 @@ Antes de começar, você precisará ter instalado:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/GeneratePass.git
-   cd gerador-de-senhas
    ```
 
 2. Instale as dependências:
@@ -54,8 +53,9 @@ Antes de começar, você precisará ter instalado:
 
 ## 📸 Interface do Usuário
 
+<img src="./assets/demo.gif">
 
-## 🧑‍💻 Contribuindo
+##🧑‍💻 Contribuindo
 
 Contribuições são bem-vindas! 
 

@@ -5,13 +5,13 @@ import { styles } from './InputStyles';
 import * as Clipboard from 'expo-clipboard';
 
 interface InputProps {
-  pass: string; 
+  pass: string;
 }
 
 export function Input(props: InputProps) {
   function handleCopy() {
     if (props.pass) {
-      Clipboard.setStringAsync(props.pass) // Copia o texto para a área de transferência
+      Clipboard.setStringAsync(props.pass)
         .then(() => {
           Alert.alert('A senha foi copiada para a área de transferência.');
         });
@@ -22,7 +22,7 @@ export function Input(props: InputProps) {
     <View style={styles.container}>
       <TextInput 
         style={styles.inputer}
-        placeholder="password"
+        placeholder="Password"
         value={props.pass}
         editable={false} 
       />

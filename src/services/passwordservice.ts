@@ -1,12 +1,14 @@
-export default function gereneratePass(){
-    let password: string = ''
-    let characters: string = '!@$#%0123456789abcdefghijklmnopqrstuvxzABCDEFGHIJKLMNOPQRSTUVXZ'
-    let passwordLength = 8
-
-    for (let index = 0; index < passwordLength; index++){
-        password += characters.charAt(
-            Math.floor(Math.random() * characters.length)
-        )
+export default function generatePass(passwordLength: number = 8): string {
+    let password = '';
+    const characters =
+      '!@$#%0123456789abcdefghijklmnopqrstuvxzABCDEFGHIJKLMNOPQRSTUVXZ';
+  
+    for (let i = 0; i < passwordLength; i++) {
+      password += characters.charAt(
+        Math.floor(Math.random() * characters.length)
+      );
     }
-    return password
-}
+  
+    return password;
+  }
+  
